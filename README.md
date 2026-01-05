@@ -1,4 +1,5 @@
-In this project, let's build a **Nxt Trendz - Specific Product Details** app by applying the concepts we have learned till now.
+In this project, let's build a **Nxt Trendz - Specific Product Details** app by
+applying the concepts we have learned till now.
 
 ### Refer to the image below:
 
@@ -37,17 +38,27 @@ In this project, let's build a **Nxt Trendz - Specific Product Details** app by 
 
 The app must have the following functionalities
 
-- When an unauthenticated user, tries to access the Product Item Details Route, then the page should be navigated to Login Route
-- When an authenticated user clicks on a product in the Products Route, then the page should be navigated to Product Item Details route
+- When an unauthenticated user, tries to access the Product Item Details Route,
+  then the page should be navigated to Login Route
+- When an authenticated user clicks on a product in the Products Route, then the
+  page should be navigated to Product Item Details route
 - When an authenticated user opens the Product Item Details Route,
-  - An HTTP GET request should be made to **productDetailsApiUrl** with `jwt_token` in the Cookies and product `id` as path parameter
+  - An HTTP GET request should be made to **productDetailsApiUrl** with
+    `jwt_token` in the Cookies and product `id` as path parameter
   - **_loader_** should be displayed while fetching the data
-  - After the data is fetched successfully, display the product details and similar products received in the response
+  - After the data is fetched successfully, display the product details and
+    similar products received in the response
   - Initially, the quantity of the product should be `1`
-  - The quantity of the product should be incremented by one when the plus icon is clicked
-  - The quantity of the product should be decremented by one when the minus icon is clicked
-  - If the HTTP GET request made is unsuccessful, then the [Failure view](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-product-details-error-lg-output.png) should be displayed
-    - When the **Continue Shopping** button in the [Failure view](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-product-details-error-lg-output.png) is clicked, then the page should be navigated to Products Route
+  - The quantity of the product should be incremented by one when the plus icon
+    is clicked
+  - The quantity of the product should be decremented by one when the minus icon
+    is clicked
+  - If the HTTP GET request made is unsuccessful, then the
+    [Failure view](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-product-details-error-lg-output.png)
+    should be displayed
+    - When the **Continue Shopping** button in the
+      [Failure view](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-product-details-error-lg-output.png)
+      is clicked, then the page should be navigated to Products Route
 
 </details>
 
@@ -139,7 +150,8 @@ Use these files to complete the implementation:
 <summary>Click to view</summary>
 <br>
 
-- The `line-height` CSS property sets the height of a line box. It's commonly used to set the distance between lines of text.
+- The `line-height` CSS property sets the height of a line box. It's commonly
+  used to set the distance between lines of text.
 
   ```
   line-height: 1.5;
@@ -164,7 +176,8 @@ Use these files to complete the implementation:
 - `Products` Route should consist of `/products` in the URL path
 - `Product Item Details` Route should consist of `/products/:id` in the URL path
 - `Cart` Route should consist of `/cart` in the URL path
-- No need to use the `BrowserRouter` in `App.jsx` as we have already included in `main.jsx`
+- No need to use the `BrowserRouter` in `App.jsx` as we have already included in
+  `main.jsx`
 
 - Prime User credentials
 
@@ -180,7 +193,8 @@ Use these files to complete the implementation:
    password: raja@2021
   ```
 
-- Import and wrap the BeatLoader component with an HTML container element and add the `data-testid` attribute value as `loader` to it
+- Import and wrap the BeatLoader component with an HTML container element and
+  add the `data-testid` attribute value as `loader` to it
 
   ```jsx
   import {BeatLoader} from 'react-spinners'
@@ -192,15 +206,19 @@ Use these files to complete the implementation:
   </div>
   ```
 
-- The product image in Product Item Details Route should have the alt as **product**
-- The similar product image in Product Item Details Route should have the alt as **similar product {product title}**
+- The product image in Product Item Details Route should have the alt as
+  **product**
+- The similar product image in Product Item Details Route should have the alt as
+  **similar product {product title}**
 
   ```example
   similar product Wide Bowknot Hat
   ```
 
-- `BsPlusSquare`, `BsDashSquare` icons from react-icons should be used for **plus** and **minus** buttons in ProductItemDetails Route
-- The Product Item Details Route should consist of two HTML button elements with `data-testid` attribute values as **plus** and **minus** respectively
+- `BsPlusSquare`, `BsDashSquare` icons from react-icons should be used for
+  **plus** and **minus** buttons in ProductItemDetails Route
+- The Product Item Details Route should consist of two HTML button elements with
+  `data-testid` attribute values as **plus** and **minus** respectively
 
 </details>
 
@@ -209,8 +227,10 @@ Use these files to complete the implementation:
 <details>
 <summary>Image URLs</summary>
 
-- [https://assets.ccbp.in/frontend/react-js/star-img.png](https://assets.ccbp.in/frontend/react-js/star-img.png) alt should be **star**
-- [https://assets.ccbp.in/frontend/react-js/nxt-trendz-error-view-img.png](https://assets.ccbp.in/frontend/react-js/nxt-trendz-error-view-img.png) alt should be **error view**
+- [https://assets.ccbp.in/frontend/react-js/star-img.png](https://assets.ccbp.in/frontend/react-js/star-img.png)
+  alt should be **star**
+- [https://assets.ccbp.in/frontend/react-js/nxt-trendz-error-view-img.png](https://assets.ccbp.in/frontend/react-js/nxt-trendz-error-view-img.png)
+  alt should be **error view**
 
 </details>
 
@@ -240,6 +260,8 @@ Use these files to complete the implementation:
 > ### _Things to Keep in Mind_
 >
 > - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
+> - Don't change the component folder names as those are the files being
+>   imported into the tests.
 > - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+> - Want to quickly review some of the concepts you’ve been learning? Take a
+>   look at the Cheat Sheets.

@@ -162,7 +162,7 @@ const AllProductsSection = () => {
         <ProductsHeader
           activeOptionId={activeOptionId}
           sortbyOptions={sortbyOptions}
-          updateActiveOptionId={changeSortby}
+          changeSortby={changeSortby}
         />
         <ul className="products-list">
           {productsList.map(product => (
