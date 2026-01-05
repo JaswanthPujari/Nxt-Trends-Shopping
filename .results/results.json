@@ -1,0 +1,184 @@
+{
+  "test_case_results": [
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_1",
+      "evaluation_result": "CORRECT",
+      "title": "When HTTP GET request made to productDetailsApiUrl is successful, then the page should consist of at least two HTML list items, and the similar products list should be rendered using a unique key as a prop for each similar product item",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_2",
+      "evaluation_result": "CORRECT",
+      "title": "When the Product Item Details Route is accessed, an HTTP GET request should be made to productDetailsApiUrl with the product id as path parameter",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_3",
+      "evaluation_result": "CORRECT",
+      "title": "When the Product Item Details Route is accessed, an HTML container element with data-testid attribute value as \"loader\" should be displayed while the API call is in progress",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_4",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Product Item Details route is successful, an HTML image element with alt as \"product\" and src equal to the value of the key \"image_url\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_5",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Product Item Details route is successful, an HTML main heading element with text content as the value of the key \"title\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_6",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Product Item Details route is successful, an HTML paragraph element with text content as the value of the key \"price\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_7",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Product Item Details route is successful, an HTML paragraph element with text content as the value of the key \"rating\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_8",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Product Item Details route is successful, an HTML paragraph element with text content as the value of the key \"total_reviews\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_9",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Product Item Details route is successful, an HTML paragraph element with text content as the value of the key \"description\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_10",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Product Item Details route is successful, an HTML paragraph element with text content as the value of the key \"availability\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_11",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Product Item Details route is successful, an HTML paragraph element with text content as the value of the key \"brand\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_12",
+      "evaluation_result": "CORRECT",
+      "title": "JSX code implementation for Product Item Details should use \"BsPlusSquare\" and \"BsDashSquare\" from the react-icons package",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_13",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Product Item Details route is successful, an HTML button element with data-testid \"plus\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_14",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Product Item Details route is successful, an HTML button element with data-testid \"minus\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_15",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Product Item Details route is successful, an HTML paragraph element with text content as \"1\" for quantity should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_16",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Product Item Details route is successful, an HTML button element with text content as \"ADD TO CART\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_17",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button with data-testid \"plus\" is clicked, the quantity should be incremented by one",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_18",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button with data-testid \"minus\" is clicked, the quantity should be decremented by one",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_19",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button with data-testid \"minus\" is clicked, the quantity should not be decremented below one",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_20",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of at least two HTML unordered list elements to display the links in the Header and the list of similar products",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_21",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of at least six HTML list items to display the links in Header and the list of similar products",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_22",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of HTML image elements with alt text starting with \"similar product\" and src as the value of the key \"image_url\" received in the similar_products list received in the response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_23",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of HTML paragraph element with text content as the value of the key \"title\" received in the similar_products list received in the response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_24",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of HTML paragraph element with text content as the value of the key \"brand\" received in the similar_products list received in the response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_25",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of HTML paragraph element with text content as the value of the key \"rating\" received in the similar_products list received in the response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_26",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of HTML paragraph element with text content as the value of the key \"price\" received in the similar_products list received in the response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_27",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request made in Product Item Details Route is unsuccessful, then the page should consist of the HTML image element with alt attribute value as \"failure view\" and src as the given Failure view image URL",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_28",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request made in Product Item Details Route is unsuccessful, the page should consist of the HTML main heading element with text content as \"Product Not Found\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_29",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request made in Product Item Details Route is unsuccessful, the page should consist of the HTML button element with text content as \"Continue Shopping\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPKQUCP_TEST_30",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request made in Product Item Details Route is unsuccessful and the \"Continue Shopping\" button is clicked, then the page should be navigated to Products Route",
+      "errorMessages": []
+    }
+  ]
+}
